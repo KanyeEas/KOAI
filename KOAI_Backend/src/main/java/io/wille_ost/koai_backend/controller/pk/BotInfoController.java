@@ -11,7 +11,7 @@ import java.util.Map;
 public class BotInfoController {
     @RequestMapping("getbotinfo/")
     public Map<String, String> index() {
-        Map<String, String> map = new HashMap<String, String>();
+        Map<String, String> map = new HashMap<>();
         map.put("name", "Wille OST");
         map.put("version", "1.0.0");
         return map;

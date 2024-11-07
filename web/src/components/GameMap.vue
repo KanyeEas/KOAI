@@ -1,12 +1,11 @@
 <template>
     <div ref="parent" class="gamemap">
-        <canvas ref="canvas"> </canvas>
+        <canvas ref="canvas" tabindex="0"> </canvas>
     </div>
 </template>
 
 <script>
 import { GameMap } from '@/assets/scripts/GameMap';
-// import { Wall } from '@/assets/scripts/Wall';
 import { ref, onMounted } from 'vue'
 
 export default {

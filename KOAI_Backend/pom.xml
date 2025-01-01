@@ -135,11 +135,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>io.wille_ost</groupId>
-			<artifactId>KOAI_Backend</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>io.wille_ost</groupId>-->
+<!--			<artifactId>KOAI_Backend</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
 
 	</dependencies>
 
